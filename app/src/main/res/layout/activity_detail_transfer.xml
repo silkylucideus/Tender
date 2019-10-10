@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:translationZ="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99ffecca"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="From Account"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="6492000602030132"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Beneficiary Name"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="Tripathy Iyengar Vishwakarma"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99bad6dd"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Beneficiary Account Number"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="87203333199920347"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="IFSC Code"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="PUN0658200"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99bad6dd"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Amount"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="$1900,000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Description"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="This is a dummy Transaction"/>
+
+        </LinearLayout>
+
+        <Button style="@style/mybutton"
+            android:onClick="onClickSubmit"
+            android:text="Done"/>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

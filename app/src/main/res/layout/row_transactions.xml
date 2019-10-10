@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99ffecca"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:id="@+id/t_date"
+                android:text="Date"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="08 March 2018"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Deposit"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="$10,000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99bad6dd"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Transaction ID"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="87203333199920347"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="From"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="Arun Prakash"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99bad6dd"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Amount"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="$1900,000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Description"/>
+
+
+            <TextView style="@style/list_subheading"
+                android:text="This is a dummy Transaction"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f2f2f2"/>
+
+</LinearLayout>

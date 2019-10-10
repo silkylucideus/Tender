@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99ffecca"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:id="@+id/t_date"
+                android:text="Beneficiary Account Number"/>
+
+
+            <TextView
+                android:id="@+id/acc_no"
+                style="@style/list_subheading"
+                android:text="35454532412313" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Account Type"/>
+
+
+            <TextView
+                android:id="@+id/acc_type"
+                style="@style/list_subheading"
+                android:text="Savings" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99bad6dd"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="IFSC Code"/>
+
+
+            <TextView
+                android:id="@+id/ifsc_code"
+                style="@style/list_subheading"
+                android:text="PUNB8981109" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Beneficiary Name"/>
+
+
+            <TextView
+                android:id="@+id/ben_name"
+                style="@style/list_subheading"
+                android:text="Arun Prakash" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99bad6dd"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Email ID"/>
+
+
+            <TextView
+                android:id="@+id/email_id"
+                style="@style/list_subheading"
+                android:text="arun@gmail.com" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView style="@style/list_heading"
+                android:text="Status"/>
+
+
+            <TextView
+                android:id="@+id/status"
+                style="@style/list_subheading"
+                android:text="Enabled" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f2f2f2"/>
+
+</LinearLayout>

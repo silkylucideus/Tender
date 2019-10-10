@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#522e92</color>
+    <color name="colorAccent">#522E92</color>
+    <color name="md_amber_300">#4f1b68</color>
+    <color name="md_amber_50">#4f1b68</color>
+    <color name="md_teal_500">#4f1b68</color>
+    <color name="md_blue_400">#4f1b68</color>
+    <color name="md_amber_A400">#4f1b68</color>
+    <color name="primaryColorDark_orange">#4f1b68</color>
+    <color name="background_la">#fdfdfd</color>
+    <color name="view_line">#f2f2f2</color>
+</resources>

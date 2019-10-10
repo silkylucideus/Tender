@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    1. Hardcoded encryption key.
+    2. Non Random IV.
+    3. Sensitive Data Stored in String.
+    4. Weak Encryption Key.
+    5. Weak Hashing Algoritham.
+    6. Weak Password Policy
+    7. Lack of Input Validation
+    8. Improper Exception Handling
+
+
+
+    ============================
+    1. False Positive Exported Activity (Login and Signup)
+</resources>

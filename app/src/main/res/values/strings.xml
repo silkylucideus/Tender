@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Tender</string>
+    <string name="feel_free">Welcome to the world where you can feel safe.</string>
+    <string name="signup">Sign Up !</string>
+    <string name="aes">AES</string>
+    <string name="sha1">SHA-1</string>
+    <string name="md5">MD5</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="otp_disclamair">A One Time Password (OTP) would be sent to the registered mobile number within 30 minutes.</string>
+    <string name="configuration">Configuration</string>
+    <string name="set_up_your_environment">Set Up Your Environment</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_otp__verify">OTP_Verify</string>
+    <string name="title_activity_account__details">Account_Details</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_beneficiary__fund">BENEFICIARY_FUND</string>
+    <string name="title_activity_fund__otp__verify">FUND_OTP_Verify</string>
+    <string name="title_activity_delete__beneficiary">Delete_Beneficiary</string>
+</resources>
